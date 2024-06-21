@@ -27,10 +27,10 @@ Dataset_with_missingness_in_CDR_column_Imputation&Classification.ipynb :  Code f
 Classification_of_Feature_selected_dataset.ipynb : Code for the classification of the selected features obtained from the employed traditional feature selection methods and from the denoising autoencoders on each imputation. 
 
 **Usage of the project**:
-1. Data Preprocessing: Open the python Jupyter Notebook and run the codes for data preparation and preprocessing. This includes removal of irrelevant column, standardisation of the gender column, transformation of negative values to non - negative values and normalisation of the features.
-2. Feature Selection: Employ the feature selection methods;Boruta,logistic regression with L1 regularization and autoencoder.
-3. Generation of missingness, Imputation and Classification: Select the features that highly relate to Alzheimer's disease severity and generate different levels of missingness, then impute the missingness using the code for DAE and classify using Random Forest Classifier.
-4. Evaluation: Evaluate the performance of the model by running the code for calculating accuracy, precison, recall and F1 score.
+1. _**Data Preprocessing**_: Open the python Jupyter Notebook and run the codes for data preparation and preprocessing. This includes removal of irrelevant column, standardisation of the gender column, transformation of negative values to non - negative values and normalisation of the features.
+2. **_Feature Selection_**: Employ the feature selection methods;Boruta,logistic regression with L1 regularization and autoencoder.
+3. _**Generation of missingness, Imputation and Classification**_: Select the features that highly relate to Alzheimer's disease severity and generate different levels of missingness, then impute the missingness using the code for DAE and classify using Random Forest Classifier.
+4. _**Evaluation**_: Evaluate the performance of the model by running the code for calculating accuracy, precison, recall and F1 score.
 
 **License**:
 The current project is licensed by 'GNU General Public License v2.0'.
