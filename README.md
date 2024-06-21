@@ -5,6 +5,7 @@ The current repository consists of a deep neural network approach of imputing th
 Google Colab (https://colab.google/), a cloud-based Jupyter notebook environment provided by Google, was utilised for conducting the study, which included data preprocessing, feature selection, missing data generation (40% - 70%, imputation using denoising autoencoder, classification using Random Forest Classifier and validations.
 
 **Dataset**:
+
 The dataset used in the study was obtained from ADNIMERGE-3 open repository as per request.
 
 **Repository Files**:
@@ -31,7 +32,7 @@ Classification_of_Feature_selected_dataset.ipynb : Code for the classification o
 3. Generation of missingness, Imputation and Classification: Select the features that highly relate to Alzheimer's disease severity and generate different levels of missingness, then impute the missingness using the code for DAE and classify using Random Forest Classifier.
 4. Evaluation: Evaluate the performance of the model by running the code for calculating accuracy, precison, recall and F1 score.
 
-**License**
+**License**:
 The current project is licensed by 'GNU General Public License v2.0'.
 
 
