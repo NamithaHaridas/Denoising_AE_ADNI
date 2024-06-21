@@ -1,4 +1,8 @@
-**Title of Project**: **"Autoencoder Imputation of Missing Heterogeneous Data for Alzheimer’s Disease Classification."**                The current repository consists of a deep neural network approach of imputing the missingness in the heterogenous ADNI data.        Google Colab (https://colab.google/), a cloud-based Jupyter notebook environment provided by Google, was utilised for conducting the study, which included data preprocessing, feature selection, missing data generation (40% - 70%, imputation using denoising autoencoder, classification using Random Forest Classifier and validations.
+**Title of Project**: **"Autoencoder Imputation of Missing Heterogeneous Data for Alzheimer’s Disease Classification."**   
+
+The current repository consists of a deep neural network approach of imputing the missingness in the heterogenous ADNI data.  
+
+Google Colab (https://colab.google/), a cloud-based Jupyter notebook environment provided by Google, was utilised for conducting the study, which included data preprocessing, feature selection, missing data generation (40% - 70%, imputation using denoising autoencoder, classification using Random Forest Classifier and validations.
 
 **Dataset**:
 The dataset used in the study was obtained from ADNIMERGE-3 open repository as per request.
@@ -8,11 +12,17 @@ The dataset used in the study was obtained from ADNIMERGE-3 open repository as p
 Following order of the files demonstrating the project;
 
 Data_Preprocessing_steps.ipynb : Code for data preparation and preprocessing steps including normalisation.
+
 Feature_selections.ipynb : Code for extracting important features using Boruta, logistic regression with L1 regularization and autoencoder.
+
 Original_dataset_Classification.ipynb : Code for the random forest classification (3 class classification) of the original dataset followed by SMOTE.
+
 Dataset_with_MOTHDEM_column_missing_imputation&Classification.ipynb : Code for generating missingness of 40%, 50%, 60% and 70% in the MOTHDEM column followed by imputation using DAE and classification using Random Forest Classifier.
+
 Dataset_with_missingness_in_APoE_column_imputation&Classification.ipynb : Code for generating missingness of 40%, 50%, 60% and 70% in the APoE column followed by imputation using DAE and classification using Random Forest Classifier.
+
 Dataset_with_missingness_in_CDR_column_Imputation&Classification.ipynb :  Code for generating missingness of 40%, 50%, 60% and 70% in the CDR column followed by imputation using DAE and classification using Random Forest Classifier.
+
 Classification_of_Feature_selected_dataset.ipynb : Code for the classification of the selected features obtained from the employed traditional feature selection methods and from the denoising autoencoders on each imputation. 
 
 **Usage of the project**:
