@@ -9,7 +9,7 @@ The dataset used in the study was obtained from ADNIMERGE-3 open repository as p
 
 **Repository Files**:
 
-Following order of the files demonstrating the project;
+The following order of the files demonstrates the project;
 
 Data_Preprocessing_steps.ipynb : Code for data preparation and preprocessing steps including normalisation.
 
